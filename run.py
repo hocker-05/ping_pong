@@ -43,8 +43,8 @@ font1 = font.Font(None, 30)
 lose_left = font1.render('Левый игрок проиграл!', True, (255, 0, 0))
 lose_right = font1.render('Правй игрок проиграл игрок проиграл!', True, (255, 0, 0))
 back = (255, 255, 0)
-speed_x = 3
-speed_y = 3
+speed_x = 5
+speed_y = 5
 
 while game:
     for e in event.get():
